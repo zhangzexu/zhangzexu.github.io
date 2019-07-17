@@ -13,9 +13,9 @@ categories: main
 
 3、[最新的静态文件代码包 static.zip][static.zip];
 
-[cbus-dmp.jar]: http://140.143.80.97/dhc-dmp/resource/cbus-dmp-1.0.4.jar
-[application.yml]: http://140.143.80.97/dhc-dmp/resource/application.yml
-[static.zip]: http://140.143.80.97/dhc-dmp/resource/static.zip
+[cbus-dmp.jar]: http://218.95.137.107:9000//dhc-dmp/resource/cbus-dmp-1.0.4.jar
+[application.yml]: http://218.95.137.107:9000/dhc-dmp/resource/application.yml
+[static.zip]: http://218.95.137.107:9000/dhc-dmp/resource/static.zip
 
 请将所有的文件放在同一目录启动，启动前请根据自己的需要修改配置文件
 
@@ -45,9 +45,9 @@ spring:
 [application.yml][application.yml]||
 [static.zip][static.zip]
 
-[cbus-dmp.jar]: http://140.143.80.97/dhc-dmp/resource/2019-07-17/cbus-dmp-1.0.4.jar
-[application.yml]: http://140.143.80.97/dhc-dmp/resource/2019-07-17/application.yml
-[static.zip]: http://140.143.80.97/dhc-dmp/resource/2019-07-17/static.zip
+[cbus-dmp.jar]: http://218.95.137.107:9000/dhc-dmp/resource/2019-07-17/cbus-dmp-1.0.4.jar
+[application.yml]: http://218.95.137.107:9000/dhc-dmp/resource/2019-07-17/application.yml
+[static.zip]: http://218.95.137.107:9000/dhc-dmp/resource/2019-07-17/static.zip
 
 
 
