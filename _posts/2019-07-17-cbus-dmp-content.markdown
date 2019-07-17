@@ -17,9 +17,9 @@ categories: main
 
 下载完成的项目路径如图所示
 
-<img src="http://140.143.80.97/dhc-dmp/img/1D790ACF-7568-4478-AB3F-C9F79477AC4C.png" width = "100" height = "100" />
+<img src="http://140.143.80.97/dhc-dmp/img/1D790ACF-7568-4478-AB3F-C9F79477AC4C.png" height = "200px" />
 
-
+<a href="http://140.143.80.97/dhc-dmp/resource/application.yml" download="application.yml">请在这里下载监控平台最新的配置文件</a>
 {% highlight ruby %}
 spring:
    resources:
