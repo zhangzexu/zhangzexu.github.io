@@ -13,6 +13,11 @@ categories: main
 
 3、[最新的静态文件代码包 static.zip][static.zip];
 
+请将所有的文件放在同一目录启动，启动前请根据自己的需要修改配置文件
+
+下载完成的项目路径如图所示
+![项目路径图](http://140.143.80.97/dhc-dmp/img/1D790ACF-7568-4478-AB3F-C9F79477AC4C.png ''项目路径图'')
+
 {% highlight ruby %}
 spring:
    resources:
