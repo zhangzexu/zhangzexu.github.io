@@ -5,7 +5,7 @@ date:   2019-07-17 1:00:00
 categories: main
 ---
 
-请在这里下载最新版的监控平台部署包
+请在这里下载最新版的监控平台部署包（推荐操作方式:在linux系统下可以复制文件链接使用 wget 直接下载）
 
 1、[最新版的后端jar包 cbus-dmp.jar][cbus-dmp.jar];
 
