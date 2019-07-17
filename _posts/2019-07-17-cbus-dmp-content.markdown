@@ -41,8 +41,8 @@ spring:
 
 2019-07-17 (更新说明:第一次公布，后面每次会比较上一个发布)
 
-[cbus-dmp.jar][cbus-dmp.jar]
-[application.yml][application.yml]
+[cbus-dmp.jar][cbus-dmp.jar]||
+[application.yml][application.yml]||
 [static.zip][static.zip]
 
 [cbus-dmp.jar]: http://140.143.80.97/dhc-dmp/resource/2019-07-17/cbus-dmp-1.0.4.jar
