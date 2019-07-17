@@ -37,9 +37,9 @@ spring:
 
 版本更新日志:
 
-历史版本
+历史版本(说明:后面更新了那个版本就会发布那个版本的更新包)
 
-2019-07-17 
+2019-07-17 (更新说明:第一次公布，后面每次会比较上一个发布)
 
 [cbus-dmp.jar][cbus-dmp.jar]
 [application.yml][application.yml]
