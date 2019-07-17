@@ -1,7 +1,7 @@
 # Setup
 title:        小旭旭的个人博客
 tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      "https://zhangzexu.github.io/"
+baseurl:      ""
 paginate:     1
 locale:       "en"
 
@@ -9,6 +9,7 @@ locale:       "en"
 author:
   name:       zhangzexu
   url:        zhangzexu.github.io
+paginate: 5
 
 # Gems
 gems:
