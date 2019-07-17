@@ -34,6 +34,10 @@ spring:
 #=> static-locations: file: 后面为静态文件所在的全路径
 {% endhighlight %}
 
+上述的文件路径如图所示
+
+<img src="http://140.143.80.97/dhc-dmp/img/24BB5473-896B-4F32-83B7-7778C0D9C384.png" height = "200px" />
+
 修改 file: 后面为 自己statics所在的路径
 
 版本更新日志:
