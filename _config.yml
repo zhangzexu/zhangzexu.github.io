@@ -11,7 +11,8 @@ author:
   url:        zhangzexu.github.io
 
 # Gems
-
+gems:
+- jekyll-paginate
 
 #Others
 markdown: kramdown
@@ -24,5 +25,4 @@ gitalk:
   admin: zhangzexu
   clientID: 8bb21c31f4b8beb9587c
   clientSecret: eb4266e40f753dab3389a96783a7517a3bc6235f
-plugins:
-- jekyll-feed
+
