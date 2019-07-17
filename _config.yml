@@ -1,7 +1,7 @@
 # Setup
 title:        小旭旭的个人博客
 tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      "https://zhangzexu.github.io/"
+baseurl:      "https://zhangzexu.github.io"
 paginate:     1
 locale:       "en"
 
@@ -16,3 +16,12 @@ gems:
 
 #Others
 markdown: kramdown
+
+#gitalk settings
+gitalk:
+  enable: true #用来做启用判断可以不用
+  owner: #Github 用户名,
+  repo: #储存评论issue的github仓库名
+  admin: #Github 用户名,
+  clientID: #`Github Application clientID`
+  clientSecret: #`Github Application clientSecret`
