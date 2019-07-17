@@ -20,7 +20,7 @@ markdown: kramdown
 #gitalk settings
 gitalk:
   enable: true #用来做启用判断可以不用
-  owner: zhangzeux
+  owner: zhangzexu
   repo:  zhangzexu.github.io
   admin: zhangzexu
   clientID: 8bb21c31f4b8beb9587c
