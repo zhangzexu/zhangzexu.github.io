@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "cbus-dmp download"
+title:  "监控平台部署教程"
 date:   2019-07-17 1:00:00
 categories: main
 ---
