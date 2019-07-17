@@ -7,11 +7,11 @@ categories: main
 
 请在这里下载最新版的监控平台部署包
 
-1、[最新版的后端jar包][cbus-dmp.jar];
+1、[最新版的后端jar包 cbus-dmp.jar][cbus-dmp.jar];
 
 2、文件名称为 application.yml [最新的配置文件][application.yml];
 
-3、[最新的静态文件代码包][static.zip];
+3、[最新的静态文件代码包 static.zip][static.zip];
 
 {% highlight ruby %}
 spring:
