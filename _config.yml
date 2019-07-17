@@ -1,18 +1,17 @@
 # Setup
 title:        小旭旭的个人博客
 tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      "https://zhangzexu.github.io"
+baseurl:      ""
 paginate:     1
 locale:       "en"
 
 # About/contact
 author:
   name:       zhangzexu
-  url:        https://zhangzexu.github.io/
+  url:        zhangzexu.github.io
 
 # Gems
-gems:
-  - jekyll-paginate
+
 
 #Others
 markdown: kramdown
@@ -23,5 +22,7 @@ gitalk:
   owner: zhangzexu
   repo:  zhangzexu.github.io
   admin: zhangzexu
-  clientID: 8bb21c31f4b8beb9587c
-  clientSecret: eb4266e40f753dab3389a96783a7517a3bc6235f
+  clientID: 27b993ae215b8329db98
+  clientSecret: de2ee4f9d01aa43c0ea69565362ea92977985676
+plugins:
+- jekyll-feed
