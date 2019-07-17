@@ -9,7 +9,7 @@ categories: main
 
 1、[最新版的后端jar包][cbus-dmp.jar];
 
-2、[最新的配置文件][application.yml];
+2、文件名称为 application.yml [最新的配置文件][application.yml];
 
 3、[最新的静态文件代码包][static.zip];
 
