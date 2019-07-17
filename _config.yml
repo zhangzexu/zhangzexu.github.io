@@ -20,8 +20,8 @@ markdown: kramdown
 #gitalk settings
 gitalk:
   enable: true #用来做启用判断可以不用
-  owner: #Github 用户名,
-  repo: #储存评论issue的github仓库名
-  admin: #Github 用户名,
-  clientID: #`Github Application clientID`
-  clientSecret: #`Github Application clientSecret`
+  owner: zhangzeux
+  repo:  zhangzexu.github.io
+  admin: zhangzexu
+  clientID: 8bb21c31f4b8beb9587c
+  clientSecret: eb4266e40f753dab3389a96783a7517a3bc6235f
