@@ -44,6 +44,7 @@ spring:
 [cbus-dmp.jar][cbus-dmp.jar]
 [application.yml][application.yml]
 [static.zip][static.zip]
+
 [cbus-dmp.jar]: http://140.143.80.97/dhc-dmp/resource/2019-07-17/cbus-dmp-1.0.4.jar
 [application.yml]: http://140.143.80.97/dhc-dmp/resource/2019-07-17/application.yml
 [static.zip]: http://140.143.80.97/dhc-dmp/resource/2019-07-17/static.zip
