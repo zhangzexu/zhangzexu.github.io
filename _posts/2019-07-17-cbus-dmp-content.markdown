@@ -29,11 +29,12 @@ categories: main
 
 {% highlight ruby %}
 spring:
-   resources:
-     static-locations: classpath:./static
+  resources:
+    static-locations: file:/Users/zhangzexu/文档/idea/newcbus-dmp/cbus-dmp/target/static
+#=> static-locations: file: 后面为静态文件所在的全路径
 {% endhighlight %}
 
-修改 classpath:./static 为 classpath:./文件名
+修改 file: 后面为 自己statics所在的路径
 
 版本更新日志:
 
