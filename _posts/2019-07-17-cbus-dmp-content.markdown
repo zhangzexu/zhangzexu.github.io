@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "cbus-dmp download"
-date:   2016-02-12 17:50:00
+date:   2019-07-17 1:00:00
 categories: main
 ---
 
@@ -13,21 +13,41 @@ categories: main
 
 3、[最新的静态文件代码包 static.zip][static.zip];
 
+[cbus-dmp.jar]: http://140.143.80.97/dhc-dmp/resource/cbus-dmp-1.0.4.jar
+[application.yml]: http://140.143.80.97/dhc-dmp/resource/application.yml
+[static.zip]: http://140.143.80.97/dhc-dmp/resource/static.zip
+
 请将所有的文件放在同一目录启动，启动前请根据自己的需要修改配置文件
 
 下载完成的项目路径如图所示
 
 <img src="http://140.143.80.97/dhc-dmp/img/1D790ACF-7568-4478-AB3F-C9F79477AC4C.png" height = "200px" />
 
-<a href="http://140.143.80.97/dhc-dmp/resource/application.yml" download="application.yml">请在这里下载监控平台最新的配置文件</a>
+解压后的目录结构如图所示,如需修改默认的第一层静态文件目录static,请修改 application 中对应的配置项
+
+<img src="http://140.143.80.97/dhc-dmp/img/B83F511A-CC85-4424-B6A0-2B95E6824FE0.png" height = "200px" />
+
 {% highlight ruby %}
 spring:
    resources:
      static-locations: classpath:./static
 {% endhighlight %}
 
+修改 classpath:./static 为 classpath:./文件名
+
+版本更新日志:
+
+历史版本
+
+2019-07-17 
+
+[cbus-dmp.jar][cbus-dmp.jar]
+[application.yml][application.yml]
+[static.zip][static.zip]
+[cbus-dmp.jar]: http://140.143.80.97/dhc-dmp/resource/2019-07-17/cbus-dmp-1.0.4.jar
+[application.yml]: http://140.143.80.97/dhc-dmp/resource/2019-07-17/application.yml
+[static.zip]: http://140.143.80.97/dhc-dmp/resource/2019-07-17/static.zip
 
 
-[cbus-dmp.jar]: http://140.143.80.97/dhc-dmp/resource/cbus-dmp-1.0.4.jar
-[application.yml]: http://140.143.80.97/dhc-dmp/resource/application.yml
-[static.zip]: http://140.143.80.97/dhc-dmp/resource/static.zip
+
+
