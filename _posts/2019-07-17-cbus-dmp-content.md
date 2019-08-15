@@ -13,7 +13,7 @@ categories: main
 
 3、[最新的静态文件代码包 static.zip][static.zip];
 
-[cbus-dmp.jar]: http://218.95.137.107:9000//dhc-dmp/resource/cbus-dmp-1.0.4.jar
+[cbus-dmp.jar]: http://218.95.137.107:9000//dhc-dmp/resource/cbus-dmp-1.0.5.jar
 [application.yml]: http://140.143.80.97/dhc-dmp/resource/application.yml
 [static.zip]: http://218.95.137.107:9000/dhc-dmp/resource/static.zip
 
@@ -53,6 +53,24 @@ spring:
 [cbus-dmp.jar]: http://218.95.137.107:9000/dhc-dmp/resource/2019-07-17/cbus-dmp-1.0.4.jar
 [application.yml]: http://140.143.80.97/dhc-dmp/resource/2019-07-17/application.yml
 [static.zip]: http://218.95.137.107:9000/dhc-dmp/resource/2019-07-17/static.zip
+
+2019-08-15 (更新说明:修改服务启动日志不能清空的问题，修改日志查看的方式和内容，对日志查询进行优化，修改日志存储的方式，改为通过filebeate读取)
+
+现在只需修改自己的logback.xml 配置文件即可,配置文件格式
+
+<property name="log.pattern" value="[${spring.application.name}-|${spring.application.ip}:${server.port}-|%X{traceNo}-|%-12(%d{yyyy-MM-dd HH:mm:ss.SSS})-|%level-|%thread-|%c-|%L-|%X{X-B3-TraceId:-}-|%X{X-B3-SpanId:-}-|%msg%n" />
+
+[cbus-dmp.jar][cbus-dmp-2019-08-15.jar]||
+[application.yml][application.yml]||
+[static.zip][static.zip]
+[filebeat-7.3.0-linux-x86_64.tar.gz][filebeat-7.3.0-linux-x86_64.tar.gz]
+
+已配置好，解压后只需修改filebeat.yml 中的 读取日志的路径和 logstash的地址即可，其余不需要多余的配置，[filebeat.yml配置说明][filebeat]
+
+[filebeat-7.3.0-linux-x86_64.tar.gz]: http://218.95.137.107:9000/dhc-dmp/resource/filebeat-7.3.0-linux-x86_64.tar.gz
+[cbus-dmp-2019-08-15.jar]: http://218.95.137.107:9000/dhc-dmp/resource/2019-08-15/cbus-dmp-1.0.5.jar
+[filebeat]: http://218.95.137.107:9000/dhc-dmp/resource/filebeat
+
 
 
 
